@@ -1,13 +1,7 @@
 package com.androidplayground.alc4phase1;
 
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.os.Bundle;
 
 public class MyProfile extends AppCompatActivity {
 
@@ -16,6 +10,7 @@ public class MyProfile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_profile);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }

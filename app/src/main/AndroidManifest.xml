@@ -3,6 +3,7 @@
     package="com.androidplayground.alc4phase1">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,13 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MyProfile"></activity>
         <activity
             android:name=".AboutAlc"
             android:label="@string/title_activity_about_alc"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name=".MyProfile"
-            android:label="@string/title_activity_my_profile"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"

@@ -34,7 +34,7 @@ public class AboutAlc extends AppCompatActivity {
 
         webView.loadUrl("https://andela.com/alc/");
 
-
-    }
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+   }
 
 }
